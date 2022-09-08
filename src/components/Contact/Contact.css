@@ -1,0 +1,172 @@
+.contact_section{
+    background-color: var(--primary-bg-color);
+    height: 100vh;
+    width: 100vw;
+    padding-top: 30px;
+  }
+  .contact_section h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-top: 70px ;
+    
+  }
+  .my_details{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact_info{
+    width: 50vh;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 50px ; */
+    border-radius: 6px;
+  }
+
+
+  .contact_info:hover, iframe:hover{
+    transform: scaleY(1.07);
+  }
+  .contact_info .name, 
+  .contact_info .pho, 
+  .contact_info .address,
+  .contact_info .email,
+  .contact_info .availibity{
+    width: 50vh;
+    /* height:200px;
+    width: 300px; */
+    background-color: var(--primary);
+    padding: 20px;
+    margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    font-size: 20px; 
+  }
+
+
+  .contact_info .name:hover, 
+  .contact_info .pho:hover, 
+  .contact_info .email:hover,
+  .contact_info .address:hover,
+  .contact_info .availibity:hover{
+
+    background-color: var(--secondary);
+    color: var(--primary);
+  
+  }
+  iframe{
+    width: 100vh;
+    height: 500px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  /* media query */
+
+@media (max-width: 355px) {
+
+}
+@media (max-width: 480px) {
+
+   .contact_info .name, 
+   .contact_info .pho, 
+   .contact_info .email,
+   .contact_info .address,
+   .contact_info .availibity{
+     height:100px;
+     width: 100px;
+     margin-left :0;
+     font-size: 15px;
+   }
+   
+}
+@media (max-width: 480px){
+  .contact_info .name, .contact_info .pho,  .contact_info .email, .contact_info .address, .contact_info .availibity {
+      height: 100px;
+      width: 300px;
+      font-size: 20px;
+  }
+  }
+
+
+@media (max-width: 580px) {
+
+  .contact_info .name, 
+  .contact_info .pho,
+  .contact_info .email, 
+  .contact_info .address,
+  .contact_info .availibity{
+    height:50px;
+    width: 50px;
+    margin-left :0;
+    font-size: 15px;
+  }
+}
+@media (max-width: 580px){
+  .contact_info .name, .contact_info .pho,  .contact_info .email, .contact_info .address, .contact_info .availibity {
+    height: 100px;
+    width: 300px;
+    font-size: 20px;
+}
+
+}
+/* Media Query for low resolution  Tablets, ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .contact_info .name, 
+  .contact_info .pho,
+  .contact_info .email, 
+  .contact_info .address,
+  .contact_info .availibity{
+  height:100px;
+  width: 250px;
+  margin-left :0;
+  font-size: 15px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 882px) {
+
+.contact_info{
+  width: 500px;
+  height: 450px;
+  margin-bottom: 30px;
+
+}
+.contact_info .name, 
+.contact_info .pho, 
+.contact_info .email,
+.contact_info .address,
+.contact_info .availibity{
+  height:100px;
+  width: 350px;
+  font-size: 17px;
+}
+
+}
+
+/* Media Query for Tablets ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+ 
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  
+}
+
+
+

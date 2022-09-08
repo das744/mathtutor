@@ -1,0 +1,62 @@
+/* home */
+.hero{
+    height:100vh;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6) ), url('../assets/reliability.svg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* background-position-x: 100%; */
+   
+  }
+  .hero .hero_content{
+    
+   margin-top: 300px;
+    text-align: center;
+    color: var(--primary);
+    
+  
+  }
+
+  @media (min-width: 316px) and (max-width: 481px) {
+    .hero .hero_content{
+      margin-top: 200px;
+    }
+  }
+ /* Media Query for low resolution  Tablets, ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+  .home_section{
+    padding: 0;
+  }
+  .home_img img{
+    margin-top: 20px;
+  }
+
+
+}
+/* Media Query for Tablets ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+  .hero{
+    background-position: 100%; 
+  }
+   
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  .hero{
+    background-position: 100%; 
+  }
+    
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  .hero{
+    background-position: 100%; 
+  }
+    
+}
